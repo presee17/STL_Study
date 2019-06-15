@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.4)
+project(c++11_STL_Example)
+ADD_LIBRARY (Game ../Game/game.cpp ../Game/user.cpp)
+add_subdirectory(lambda)
+add_subdirectory(sharedPointer)
